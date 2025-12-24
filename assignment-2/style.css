@@ -21,8 +21,13 @@ th, td {
 .phone-cell div:last-child {
     padding: 10px 0;
 }
- 
-table td:nth-child(2),
-table td:nth-child(3) {
+
+table thead tr:nth-child(2) th:nth-child(1),
+table thead tr:nth-child(2) th:nth-child(2) {
+    text-decoration: underline;
+}
+
+table tbody td:nth-child(2),
+table tbody td:nth-child(3) {
     text-decoration: underline;
 }
